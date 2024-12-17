@@ -1,4 +1,4 @@
-import 'package:ev_station_booking/views/my_home_page.dart';
+import 'package:ev_station_booking/views/login_screen.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -17,9 +17,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
   void _onIntroEnd(context) {
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(
-        builder: (_) => const MyHomePage(
-          title: "Flutter Demo Home Page",
-        ),
+        builder: (_) => const LoginScreen(),
       ),
     );
   }
@@ -27,7 +25,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
   @override
   void initState() {
     super.initState();
-    initialization();
+    // initialization();
   }
 
   void initialization() async {
