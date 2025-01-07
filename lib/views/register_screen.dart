@@ -1,5 +1,5 @@
 import 'package:ev_station_booking/views/login_screen.dart';
-import 'package:ev_station_booking/widgets/login_form_widget.dart';
+import 'package:ev_station_booking/widgets/register_form_widget.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatelessWidget {
@@ -22,8 +22,8 @@ class RegisterScreen extends StatelessWidget {
           color: Colors.white,
         ),
       ),
-      body: const LoginFormWidget(
-        imageUrl: "assets/images/register_screen_image.png",
+      body: const RegisterFormWidget(
+        imageUrl: "assets/images/register_page_image.png",
         bottomMessage: "If you already have an account, ",
         formRedirect: LoginScreen(),
         formDestination: LoginScreen(),

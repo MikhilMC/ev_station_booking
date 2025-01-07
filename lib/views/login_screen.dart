@@ -24,7 +24,7 @@ class LoginScreen extends StatelessWidget {
         ),
       ),
       body: const LoginFormWidget(
-        imageUrl: "assets/images/login_screen_image.png",
+        imageUrl: "assets/images/login_page_image.png",
         bottomMessage: "If you dont have an account, ",
         formRedirect: RegisterScreen(),
         formDestination: HomeScreen(),
